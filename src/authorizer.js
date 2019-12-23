@@ -54,12 +54,12 @@ const authorize = async (event, issuer) => {
   }
 };
 
-const authorizeStagingToken = async (event, context, options = {}) => {
-  return authorize(event, "https://auth-next.quicktravel.com.au", options);
+const authorizeStagingToken = async (event, context) => {
+  return authorize(event, "https://auth-next.quicktravel.com.au");
 };
 
-const authorizeProductionToken = async (event, context, options = {}) => {
-  return authorize(event, "https://auth.quicktravel.com.au", options);
+const authorizeProductionToken = async (event, context) => {
+  return authorize(event, "https://auth.quicktravel.com.au");
 };
 
 module.exports.authorizeStagingToken = authorizeStagingToken;
