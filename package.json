@@ -4,8 +4,7 @@
   "description": "Auth JS Client for NodeJS and Browser",
   "main": "src/authorizer.js",
   "scripts": {
-    "test": "jest --coverage",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "jest --coverage"
   },
   "author": "John Mortlock",
   "license": "ISC",
