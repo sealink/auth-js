@@ -10,12 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.0.9",
+    "nock": "^11.7.0",
     "jest": "^24.9.0"
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
     "jwk-to-pem": "^2.0.2",
-    "nock": "^11.7.0",
     "node-fetch": "^2.6.0"
   },
   "engines": {
