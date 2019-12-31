@@ -1,0 +1,24 @@
+{
+  "name": "@sealink/auth-js",
+  "version": "0.1.0",
+  "description": "Auth JS Client for NodeJS and Browser",
+  "main": "src/authorizer.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "John Mortlock",
+  "license": "ISC",
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "nock": "^11.7.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.2",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "^10 || ^12"
+  }
+}
