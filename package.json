@@ -11,7 +11,7 @@
   "devDependencies": {
     "coveralls": "^3.0.9",
     "nock": "^11.7.0",
-    "jest": "^24.9.0"
+    "jest": "^26.0.1"
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
