@@ -9,7 +9,7 @@
   "author": "John Mortlock",
   "license": "ISC",
   "devDependencies": {
-    "coveralls": "^3.0.9",
+    "coveralls": "^3.1.0",
     "nock": "^11.7.0",
     "jest": "^24.9.0"
   },
