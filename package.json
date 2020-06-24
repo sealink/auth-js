@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
-    "jwk-to-pem": "^2.0.3",
+    "jwk-to-pem": "^2.0.4",
     "node-fetch": "^2.6.0"
   },
   "engines": {
