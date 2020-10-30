@@ -1,6 +1,6 @@
 {
   "name": "@sealink/auth-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auth JS Client for NodeJS and Browser",
   "main": "src/authorizer.js",
   "scripts": {
