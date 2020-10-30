@@ -7,6 +7,7 @@
     "test": "jest --coverage"
   },
   "author": "John Mortlock",
+  "repository": "@sealink/auth-js",
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.1.0",
