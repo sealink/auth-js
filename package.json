@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "description": "Auth JS Client for NodeJS and Browser",
   "main": "src/authorizer.js",
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["lcov"]
+  },
   "scripts": {
     "test": "jest --coverage"
   },
@@ -26,6 +30,6 @@
     "node-fetch": "^2.6.1"
   },
   "engines": {
-    "node": "^10 || ^12"
+    "node": "^10 || ^12 || ^14"
   }
 }
