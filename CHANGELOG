@@ -1,6 +1,7 @@
 ## Unreleased
 
 * [TT-8892] Migrate to github actions
+* [OPS-213] GHActions: add Node 16 and remove Node 10
 
 ## 0.1.2
 
