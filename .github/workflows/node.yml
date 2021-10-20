@@ -11,9 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: set env
-        run: export TEST=asdf
+        run: export TEST=asdf && env
       - name: display env
         run: env
+      - name: echo "${{ github.env }}"
       # - name: Setup node
       #   uses: actions/setup-node@v2
       #   with:
