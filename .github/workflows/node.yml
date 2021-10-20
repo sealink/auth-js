@@ -14,7 +14,8 @@ jobs:
         run: export TEST=asdf && env
       - name: display env
         run: env
-      - name: echo "${{ github.env }}"
+      - name: display github env
+        run: echo "${{ github.env }}"
       # - name: Setup node
       #   uses: actions/setup-node@v2
       #   with:
