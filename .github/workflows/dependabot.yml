@@ -10,13 +10,15 @@ permissions:
   contents: write
 
 jobs:
-  # test:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: "display pull_request"
-  #       run: echo "${{ toJSON(github.event.pull_request) }}"
-  #     - name: "display workflow_run 1"
-  #       run: echo "${{ toJSON(github.event.workflow_run) }}"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "display pull_request"
+        run: echo "${{ github }}"
+      - name: "display pull_request"
+        run: env
+      # - name: "display workflow_run 1"
+      #   run: echo "${{ toJSON(github.event.workflow_run) }}"
 
   dependabot:
     runs-on: ubuntu-latest
@@ -28,9 +30,9 @@ jobs:
         uses: dependabot/fetch-metadata@v1.1.1
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --merge "$PR_URL"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      # - name: Enable auto-merge for Dependabot PRs
+      #   run: gh pr merge --auto --merge "$PR_URL"
+      #   env:
+      #     PR_URL: ${{github.event.pull_request.html_url}}
+      #     GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
