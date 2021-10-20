@@ -29,6 +29,7 @@ jobs:
       #   with:
       #     github-token: "${{ secrets.GITHUB_TOKEN }}"
       #
+      #
   dependabot:
     runs-on: ubuntu-latest
     # if: ${{ github.actor == 'dependabot[bot]' }}
